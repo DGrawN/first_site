@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./examcss.css">
+    <script defer src="./examjs.js"></script>
+    
+    
+</head>
+
+<body background="./source/1612430897_47-p-fon-bezhevo-korichnevii-dlya-prezentatsii-64.jpg">
+    <header class="navbar">
+        <nav class="navbar_header">
+            <ul class="navbar" onclick="window.addActiveClass(event)">
+                <a href="#firstanchor" class="navbar_link active" >About</a>
+                <a href="#portfolio_page" class="navbar_link" >Portfolio</a>
+                <a href="#contact" class="navbar_link" >Contacts</a>
+            </ul>
+        </nav>
+    </header>
+    <section id="firstanchor">
+        <section id="main">
+            <div class="avatar">
+                <img src="./source/avatar.jpg" class="avatar_img" alt="">
+            </div>
+            <div class="description">
+                <h1>Hi, I'am Dmitry Nikolaev</h1>
+                <p>Junior Web Developer</p>
+                <div id="about">
+                    <h1>About:</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus aut velit debitis
+                        consequuntur eos similique dolorum, voluptatum magnam necessitatibus doloremque facere unde
+                        deleniti numquam! A blanditiis consequuntur corporis odio qui!</p>
+                    <br>
+                    <p>Education:</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, accusamus suscipit neque qui
+                        praesentium nam error autem corrupti possimus sint beatae blanditiis? Consectetur, ut commodi
+                        magni nisi quod quia quasi.</p>
+                </div>
+            </div>
+            <div class="skills">
+                <h1>Base skills:</h1>
+                <ul class="skill_list">
+                    <div class="skill_box"><img src="./source/html5.svg" alt="" class="skill_img">
+                        <p>HTML5</p>
+                    </div>
+                    <div class="skill_box"><img src="./source/css3.svg" alt="" class="skill_img">
+                        <p>CSS3</p>
+                    </div>
+                    <div class="skill_box"><img src="./source/js.svg" alt="" class="skill_img">
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="skill_box"><img src="./source/figma.svg" alt="" class="skill_img">
+                        <p>Figma</p>
+                    </div>
+                </ul>
+            </div>
+        </section>
+        <section id="portfolio_page">
+            <div class="portfolio">
+                <h1>Portfolio:</h1>
+                <div class="portfolio_list">
+                    <div class="portfolio_place">
+                        <p>Project A</p>
+                        <img src="./source/clipart2655834.png" alt="" class="portfolio_img">
+                    </div>
+                    <div class="portfolio_place">
+                        <p>Project B</p>
+                        <img src="./source/clipart2655834.png" alt="" class="portfolio_img">
+                    </div>
+                    <div class="portfolio_place">
+                        <p>Project C</p>
+                        <img src="./source/clipart2655834.png" alt="" class="portfolio_img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h1>Contacts:</h1>
+            <form class="contact_form">
+                <input placeholder="Enter your name*" type="text" name="name" required />
+                <input placeholder="Enter your email*" type="text" name="email" required />
+                <textarea placeholder="Your message*" name="message" id="" cols="40" rows="5" required></textarea>
+                <input type="submit" class="button" value="Submit" />
+            </form>
+        </section>
+    </section>
+</body>
+
+</html>
